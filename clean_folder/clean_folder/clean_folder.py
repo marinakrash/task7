@@ -63,7 +63,6 @@ def collect_fileinfos(path_directory):
                     shutil.move(path_file, (f'{main_dir}' + f'/{nor_name}'))
                     unknown_format.append(type)
     dir_work(path_directory, main_dir)
-    if __name__ == '__main__':
     print(f'arch_files {arch_files}')
     print(f'doc_files {doc_files}')
     print(f'img_files {img_files}')
@@ -71,5 +70,8 @@ def collect_fileinfos(path_directory):
     print(f'video_files {video_files}')
     print(f'all_types {all_types}')
     print(f'unknown_format {unknown_format}')
+    
+    if __name__ == '__main__':
+        collect_fileinfos()
 
 
