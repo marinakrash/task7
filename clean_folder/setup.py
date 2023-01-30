@@ -8,5 +8,5 @@ setup(name='clean_folder',
       author_email='marinakrash@example.com',
       license='MIT',
       packages=packages=find_namespace_packages()
-      entry_points={'console_scripts': ['clean_folder = clean_folder.clean_folder:collect_fileinfos(path_directory):']
-)
+      entry_points={'console_scripts': ['clean_folder = clean_folder:collect_fileinfos']}
+     )
