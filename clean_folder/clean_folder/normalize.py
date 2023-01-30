@@ -7,4 +7,8 @@ def normalize(name):
     nor_name=re.sub(r'\W^.', '_', l_name)
     return(nor_name)
 
+    if __name__ == '__main__':
+        normalize()
+
+
 
